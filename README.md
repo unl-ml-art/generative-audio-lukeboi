@@ -1,12 +1,10 @@
 # Project 2 Generative Audio
 
-Your Name, yourcontact@unl.edu
-
-(Your teammate's contact info, if appropriate)
+Luke Farritor, lfarritor3@huskers.unl.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+One of my side projects is a guitar-based music installation, called Soundtracks for the Present Future. Because it's a group of guitars with the musical range comporable to that of a piano, replicating that sound using a computer is difficult. The easiest way to approximate the sound of the installation is to set your instrument to "Acoustic Guitar" in your DAW, but that only gets you partially there. Each guitar has its own distinct sound, and the acoustics of the room and the mechainics of teh installation effect the sound as well. Additionally, the sound of many guitars playing together is very distinct. I'd like to train a network to create a fake recording of the guitars playing a given midi file. This might be a challenge, because I have a some (but not a huge number) of guitar recordings and their corresponding MIDI files, and I don't have physical access to the guitars to create more recordings and thus a larger dataset.
 
 ## Model/Data
 
